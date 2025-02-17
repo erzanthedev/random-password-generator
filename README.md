@@ -40,7 +40,8 @@ The project was initially developed using **Scrimba’s built-in Scrim editor** 
 
 ## 📸 Project Preview
 
-_(Feel free to insert a screenshot or a link to your project demo here!)_
+<img width="682" alt="image" src="https://github.com/user-attachments/assets/9f5479c1-7134-46c8-8cbe-573b77283aac" />
+
 
 ---
 
