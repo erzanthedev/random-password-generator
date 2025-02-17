@@ -1,4 +1,4 @@
-const characters = [
+const chars = [
   "A",
   "B",
   "C",
@@ -91,3 +91,22 @@ const characters = [
   "?",
   "/",
 ];
+
+const btnEl = document.getElementById("btn-el");
+let fieldOneEl = document.getElementById("fieldOne-el");
+let fieldTwoEl = document.getElementById("fieldTwo-el");
+
+let passwordLength = 14;
+
+function generatePasswords() {
+  let password = "";
+  for (let i = 0; i < passwordLength; i++) {
+    password += chars[Math.floor(Math.random() * chars.length)];
+  }
+  return password;
+}
+
+function displayPasswords() {
+  fieldOneEl.textContent = generatePasswords();
+  fieldTwoEl.textContent = generatePasswords();
+}
